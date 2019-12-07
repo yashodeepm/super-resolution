@@ -1,5 +1,5 @@
 cv = rgb2gray(imread('demo/img_upscale.png'));
-cover = rgb2gray(imread('WDSR_Final_output.png'));
+cover = rgb2gray(imread('demo/img_downscale.png'));
 
 points1 = detectSURFFeatures(cv);
 points2 = detectSURFFeatures(cover);                              
